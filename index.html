@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schülergeschichten</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 1000px; margin: 0 auto; padding: 2rem; background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); color: #0f172a; line-height: 1.6; }
+        h1 { text-align: center; color: #1e40af; font-size: 2.8rem; margin-bottom: 1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .subtitle { text-align: center; color: #475569; font-size: 1.2rem; margin-bottom: 3rem; }
+        .info { text-align: center; background: rgba(255,255,255,0.8); padding: 1rem; border-radius: 8px; margin-bottom: 2rem; }
+        .file-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 1.5rem; list-style: none; padding: 0; }
+        .file-item { background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 20px rgba(0,0,0,0.1); transition: all 0.3s ease; position: relative; overflow: hidden; }
+        .file-item::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, #3b82f6, #10b981, #f59e0b); }
+        .file-item:hover { transform: translateY(-8px); box-shadow: 0 12px 40px rgba(0,0,0,0.15); }
+        .file-icon { font-size: 3.2rem; display: block; margin-bottom: 1rem; text-align: center; }
+        .file-title { font-size: 1.4rem; font-weight: bold; color: #1e293b; margin: 0 0 0.5rem 0; text-align: center; }
+        .file-link { display: block; color: #3b82f6; text-decoration: none; font-size: 1.1rem; padding: 0.75rem 1.5rem; background: #eff6ff; border: 2px solid #3b82f6; border-radius: 50px; text-align: center; transition: all 0.2s; margin-top: 1rem; font-weight: 600; }
+        .file-link:hover { background: #3b82f6; color: white; }
+        @media (max-width: 768px) { .file-grid { grid-template-columns: 1fr; } h1 { font-size: 2.2rem; } }
+    </style>
+</head>
+<body>
+    <h1>📚 Schülergeschichten-Sammlung</h1>
+    <p class="subtitle">9 kreative Kurzgeschichten!</p>
+    <div class="info">Klicke auf eine Karte, um die volle Geschichte zu lesen.</div>
+    
+    <ul class="file-grid">
+        <li class="file-item">
+            <span class="file-icon">⚔️</span>
+            <h3 class="file-title">Alriks Adventure</h3>
+            <a href="AlriksAdventure.html" class="file-link">Lesen</a>
+        </li>
+        <li class="file-item">
+            <span class="file-icon">🥖</span>
+            <h3 class="file-title">Bernd Le Baguette</h3>
+            <a href="BerndLeBaguette.html" class="file-link">Lesen</a>
+        </li>
+        <li class="file-item">
+            <span class="file-icon">👬</span>
+            <h3 class="file-title">Julian & Jonas Story</h3>
+            <a href="JulianAndJonasStory.html" class="file-link">Lesen</a>
+        </li>
+        <li class="file-item">
+            <span class="file-icon">🔍</span>
+            <h3 class="file-title">Kevins Case</h3>
+            <a href="KevinsCase.html" class="file-link">Lesen</a>
+        </li>
+        <li class="file-item">
+            <span class="file-icon">👥</span>
+            <h3 class="file-title">Malek & Jasper Story</h3>
+            <a href="MalekAndJaspersStory.html" class="file-link">Lesen</a>
+        </li>
+        <li class="file-item">
+            <span class="file-icon">📖</span>
+            <h3 class="file-title">Story by Tobi & Sarah</h3>
+            <a href="StoryByTobiandSarah.html" class="file-link">Lesen</a>
+        </li>
+        <li class="file-item">
+            <span class="file-icon">🎢</span>
+            <h3 class="file-title">The Amusement Park</h3>
+            <a href="TheAmusementPark.html" class="file-link">Lesen</a>
+        </li>
+        <li class="file-item">
+            <span class="file-icon">🎴</span>
+            <h3 class="file-title">Tim GiOh</h3>
+            <a href="TimGiOh.html" class="file-link">Lesen</a>
+        </li>
+        <li class="file-item">
+            <span class="file-icon">🕌</span>
+            <h3 class="file-title">Yusuf</h3>
+            <a href="Yusuf.html" class="file-link">Lesen</a>
+        </li>
+    </ul>
+</body>
+</html>
